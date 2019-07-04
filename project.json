@@ -1,0 +1,29 @@
+{
+  "name": "Platform에서_REST_API_ACCESS_TOKEN_생성하기",
+  "description": "Cloud Platform 사용하는 경우 REST API 키 만들어내는 Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.5.3]",
+    "UiPath.Mail.Activities": "[1.4.0]",
+    "UiPath.System.Activities": "[19.4.0]",
+    "UiPath.UIAutomation.Activities": "[19.4.1]",
+    "UiPath.WebAPI.Activities": "1.4.2"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
